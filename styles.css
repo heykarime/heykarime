@@ -1,20 +1,25 @@
 .logoK { 
     width: 4em;
 }
+
 nav {
     background-color: #fff;
 }
+
 header{
     border-bottom: 1px solid #d6d6d6;
 }
+
 body{
     background-color: #ffff;
     font-family: Arial, Helvetica, sans-serifs;
 }
+
 p, ul, a, img, body, footer, h1 {
     padding: 0;
     margin: 0 auto;
 }
+
 #gridLogoNav {
     display: grid;
     grid-template-columns: 30% 70%;
@@ -26,9 +31,11 @@ ul {
     list-style-type: none;
     overflow: hidden;
 }
+
 li {
     float: left;
 }
+
 li a {
     display: block;
     color: #000;
@@ -38,19 +45,25 @@ li a {
     text-transform: uppercase;
     font-weight: bold;
 }
+
 .naviga a:hover{
     color: #945b4c;
 }
+
 .naviga a:active{
     color: #945b4c;
+
 }
 /*HOME PAGE*/
+
 #title{
     font-size: 3em;
     font-weight: bold;
     margin: 1em;
 }
+
 /* FOOTER */
+
 footer {
     background-color: rgb(12, 12, 12);
     color: #fff;
@@ -58,3 +71,120 @@ footer {
     padding-top: 3em;
     padding-bottom: 3em;
 }
+
+ /** HOME PAGE **/
+/*
+#hiSection{
+    padding-left: 5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#hiSection h1{
+    font-size: 2.5em;
+}
+
+#hiSection p{
+    font-size: 1.5em;
+    padding-top: .5em;
+}
+
+#homeGrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+} 
+
+figcaption {
+    text-align: center;
+}
+
+#homeGrid img{
+    width: 80%; 
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1em;
+}
+
+#homeGrid figcaption{
+    padding-bottom: 1em;
+}
+
+/- ABOUT ME -/
+#gridAbout{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding-bottom: 2em;
+}
+
+#gridAbout img{
+    width: 20em;
+    float: right;
+    display: flex;
+    float: right;
+    margin-right: 0;
+    padding-right: 6em;
+}
+
+#gridAboutText{
+    width: 35em;
+    text-align: justify;
+    line-height: 2;
+}
+
+#contactButton{
+    text-decoration: none;
+    color: #fff;
+    background: #aa7c5b;
+    padding: .75em 1.5em;
+
+}
+
+/- Headings -/
+.h1{
+    padding-left: 5em;
+    padding-top: 1em;
+    padding-bottom: .5em;
+}
+
+/- WORK -/
+
+#workGrid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#workGrid img{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 1em;
+}
+#workGrid figcaption{
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+
+/-PROJECTS TEMPLATE-/
+.h1pSection{
+    width: 42em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: justify;
+    line-height: 2;
+    margin: 0 auto;
+}
+
+.h1pImg{
+    width: 100%;
+    text-align: center;
+}
+/- FOOTER -/
+
+*/
