@@ -1,25 +1,20 @@
 logoK { 
     width: 4em;
 }
-
 nav {
     background-color: #fff;
 }
-
 header{
     border-bottom: 1px solid #d6d6d6;
 }
-
 body{
     background-color: #ffff;
     font-family: Arial, Helvetica, sans-serifs;
 }
-
 p, ul, a, img, body, footer, h1 {
     padding: 0;
     margin: 0 auto;
 }
-
 #gridLogoNav {
     display: grid;
     grid-template-columns: 30% 70%;
@@ -31,11 +26,9 @@ ul {
     list-style-type: none;
     overflow: hidden;
 }
-
 li {
     float: left;
 }
-
 li a {
     display: block;
     color: #000;
@@ -45,25 +38,19 @@ li a {
     text-transform: uppercase;
     font-weight: bold;
 }
-
 .naviga a:hover{
     color: #945b4c;
 }
-
 .naviga a:active{
     color: #945b4c;
-
 }
 /*HOME PAGE*/
-
 #title{
     font-size: 3em;
     font-weight: bold;
     margin: 1em;
 }
-
 /* FOOTER */
-
 footer {
     background-color: rgb(12, 12, 12);
     color: #fff;
